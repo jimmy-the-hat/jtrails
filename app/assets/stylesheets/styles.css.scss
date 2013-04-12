@@ -1,0 +1,30 @@
+$baseFontFamily: Buenard;
+@import url(http://fonts.googleapis.com/css?family=Buenard);
+
+$btnSuccessBackground: purple;
+$navbarBackgroundHighlight: yellow;
+$navbarHeight: 60px;
+
+@import 'bootstrap' ;
+
+body {
+    
+    padding-top: 60px;
+}
+
+@import 'bootstrap-responsive' ;
+
+.navbar-inner{
+    @include box-shadow(none !important);
+    border: 0;
+}
+
+.footer {
+    
+    margin-top: 70px;
+    color: $grayLight;
+    a {
+        color: $red;
+    }
+    
+}
